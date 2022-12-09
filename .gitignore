@@ -1,0 +1,10 @@
+ca/ca.crt
+ca/ca.key
+ca/key.pem
+ca/index
+ca/ingress.pem
+ca/req.pem
+ca/index.*
+ca/newcerts/*.pem
+
+node_modules/*

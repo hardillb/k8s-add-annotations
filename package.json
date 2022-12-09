@@ -1,0 +1,24 @@
+{
+  "name": "@hardillb/k8s-ingress-hook",
+  "private" : true,
+  "version": "1.0.0",
+  "description": "A K8s mutating webhook to apply Ingress Annotations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kubernetes"
+  ],
+  "author": {
+    "name": "Ben Hardill",
+    "email": "hardillb@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "fast-json-patch": "^3.1.1",
+    "morgan": "^1.10.0"
+  }
+}
